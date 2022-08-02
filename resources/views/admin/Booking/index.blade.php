@@ -1,13 +1,13 @@
 @extends('adminlte::page')
 
-@section('title', 'Dashboard')
+@section('title', 'Booking')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Booking</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    <p>Welcome to this Precut Booking.</p>
 @stop
 
 @section('css')
