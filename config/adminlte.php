@@ -47,6 +47,7 @@ return [
 
     'logo' => '<b>Admin</b>LTE',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'login_logo_img' => 'vendor/adminlte/dist/img/Windsor.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -188,9 +189,7 @@ return [
 
     'use_route_url' => false,
 
-    'booking_url' => 'booking',
-
-    'dashboard_url' => 'admin',
+    'dashboard_url' => '/',
 
     'logout_url' => 'logout',
 
@@ -250,7 +249,7 @@ return [
             'icon'  => 'fas fa-fw fa-tachometer-alt',
         ],
         [
-            'text'  => 'Booking',
+            'text'  => 'จองวันที่ผลิต',
             'url'   => 'booking',
             'icon'  => 'fas fa-fw fa-calendar-alt',
         ],

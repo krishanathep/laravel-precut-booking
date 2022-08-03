@@ -18,11 +18,11 @@
 @section('body')
     <div class="{{ $auth_type ?? 'login' }}-box">
 
-        {{-- Logo --}}
+        {{-- Login Logo --}}
         <div class="{{ $auth_type ?? 'login' }}-logo">
             <a href="{{ $dashboard_url }}">
-                <img src="{{ asset(config('adminlte.logo_img')) }}" height="50">
-                {!! config('adminlte.logo', '<b>Admin</b>LTE') !!}
+                <img src="{{ asset(config('adminlte.login_logo_img')) }}" height="55">
+                {{-- {!! config('adminlte.logo', '<b>Admin</b>LTE') !!} --}}
             </a>
         </div>
 

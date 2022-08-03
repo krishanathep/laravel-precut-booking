@@ -3,11 +3,11 @@
 @section('title', 'Booking')
 
 @section('content_header')
-    <h1>Booking</h1>
+    <h1>สวัสดีชาวโลก Booking</h1>
 @stop
 
 @section('content')
-    <p>Welcome to this Precut Booking.</p>
+    <p>Welcome to this Precut Booking. สวัสดีชาวโลก</p>
 @stop
 
 @section('css')

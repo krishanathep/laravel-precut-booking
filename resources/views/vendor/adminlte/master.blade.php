@@ -31,10 +31,21 @@
         @include('adminlte::plugins', ['type' => 'css'])
 
         <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
+        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     @else
         <link rel="stylesheet" href="{{ mix(config('adminlte.laravel_mix_css_path', 'css/app.css')) }}">
     @endif
+
+    <style>
+		body {
+		  font-family: 'Kanit', sans-serif;
+		}
+		h1 {
+		  font-family: 'Kanit', sans-serif;
+		}
+    </style>
 
     {{-- Livewire Styles --}}
     @if(config('adminlte.livewire'))
